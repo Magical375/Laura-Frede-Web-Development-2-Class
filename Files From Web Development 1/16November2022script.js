@@ -1,4 +1,4 @@
-
+/*
 userInput1 = document.getElementById('num1').value;
 x = parseInt(userInput1);
 userInput2 = document.getElementById('num2').value;
@@ -10,7 +10,8 @@ function add(text1,text2)
     y = parseInt(text2);
     return x+y;
 }
-//
+*/
+
 function changeColor()
 {
 document.getElementById("main").style.backgroundColor=
