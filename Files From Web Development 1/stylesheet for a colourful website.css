@@ -4,11 +4,20 @@
 
 body{background-color:rgb(0,255,242);color:rgb(6, 2, 255); 
     text-size-adjust: 20px; text-align: left; text-indent: 5px; 
-    font-family: 'Quicksand', sans-serif;}
+    font-family: 'Quicksand', sans-serif;
+    line-height:10mm}
 
 /*font has sizes: 300, 400, 500, 600, 700*/
 
-h1{text-size-adjust: 28px;}
+h1{background-color:rgb(0,255,242);color:rgb(6, 2, 255); 
+    text-align: left; text-indent: 5px; 
+    font-family: 'Quicksand', sans-serif;
+    line-height:0mm;text-size-adjust: 28px;}
+
+h2{background-color:rgb(0,255,242);color:rgb(6, 2, 255); 
+    text-size-adjust: 20px; text-align: left; text-indent: 5px; 
+    font-family: 'Quicksand', sans-serif;
+    line-height:10mm}
 
 h3{text-align: center;}
 
