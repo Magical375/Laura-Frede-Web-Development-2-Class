@@ -1,6 +1,7 @@
 let c=4;
 let y=3;
 let z=c+y;
-const msg ="Hello World";
-console.log(msg);
+const greeting ="Hello";
+const name ="Laura";
+console.log(greeting+" "+name);
 console.log(z);
