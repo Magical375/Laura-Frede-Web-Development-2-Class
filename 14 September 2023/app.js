@@ -1,4 +1,4 @@
-let x=4;
+let c=4;
 let y=3;
-let z=x+y;
-console.print(z)
+let z=c+y;
+console.log(z)
