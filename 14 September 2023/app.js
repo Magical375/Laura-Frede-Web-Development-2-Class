@@ -5,3 +5,5 @@ const greeting ="Hello";
 const name ="Laura";
 console.log(greeting+" "+name);
 console.log(z);
+//apparently you need to have a good commit message so later you can go 
+//back and understand what you did
