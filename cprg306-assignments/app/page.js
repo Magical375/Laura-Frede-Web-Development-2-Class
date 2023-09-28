@@ -115,7 +115,13 @@ export default function Home() {
       </div>
     </main>
   )
-}<nav>
+}
+export default function Navigation() {
+  return (
+    <nav>
       <Link href="https://webdev2.warsylewicz.ca/week2">Week 2 Website</Link>
     </nav>
+  );
+}
+
 
