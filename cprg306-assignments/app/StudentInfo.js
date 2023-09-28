@@ -1,5 +1,5 @@
  import Link from "next/link";
-export default function Page() {
+export default function Studentinfo() {
     return (
       <div>
         <MyHeading />

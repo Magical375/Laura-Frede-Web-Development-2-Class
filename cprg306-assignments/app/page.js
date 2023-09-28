@@ -1,9 +1,14 @@
 import Image from 'next/image'
 import Link from "next/link";
+
+/*'use client';
+import { useState } from 'react';
+export default function RichTextEditor(props) {}*/
+
 import { createRoot } from 'react-dom/client';
 const domNode = document.getElementById('root');
 const root = createRoot(domNode);
-root.render(<Studentinfo.js/>);
+root.render(<Studentinfo/>);
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
