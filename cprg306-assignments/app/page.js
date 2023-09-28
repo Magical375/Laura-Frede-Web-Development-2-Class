@@ -1,5 +1,9 @@
 import Image from 'next/image'
 import Link from "next/link";
+import { createRoot } from 'react-dom/client';
+const domNode = document.getElementById('root');
+const root = createRoot(domNode);
+root.render(<Studentinfo.js/>);
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -111,11 +115,7 @@ export default function Home() {
       </div>
     </main>
   )
-}
-export default function Navigation() {
-  return (
-    <nav>
+}<nav>
       <Link href="https://webdev2.warsylewicz.ca/week2">Week 2 Website</Link>
     </nav>
-  );
-}
+

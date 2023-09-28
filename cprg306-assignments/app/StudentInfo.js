@@ -10,11 +10,8 @@ export default function Page() {
       </div>
     );
   }
-export default function Navigation() {
-  return (
-    <nav>
+  <nav>
       <Link href="https://github.com/Magical375/cprg306-assignments">Git Hub Repository</Link>
     </nav>
-  );
-}
+
 
